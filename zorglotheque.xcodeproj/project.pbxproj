@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439A170B1358CABF0094D4A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A170A1358CABF0094D4A7 /* Cocoa.framework */; };
+		439A17151358CABF0094D4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 439A17131358CABF0094D4A7 /* InfoPlist.strings */; };
+		439A17181358CABF0094D4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A17171358CABF0094D4A7 /* main.m */; };
+		439A171B1358CABF0094D4A7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 439A17191358CABF0094D4A7 /* Credits.rtf */; };
+		439A171E1358CABF0094D4A7 /* ZTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A171D1358CABF0094D4A7 /* ZTDocument.m */; };
+		439A17211358CABF0094D4A7 /* ZTDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439A171F1358CABF0094D4A7 /* ZTDocument.xib */; };
+		439A17241358CABF0094D4A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439A17221358CABF0094D4A7 /* MainMenu.xib */; };
+		439A17271358CABF0094D4A7 /* ZTDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 439A17251358CABF0094D4A7 /* ZTDocument.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		439A17061358CABF0094D4A7 /* zorglotheque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zorglotheque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439A170A1358CABF0094D4A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		439A170D1358CABF0094D4A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		439A170E1358CABF0094D4A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		439A170F1358CABF0094D4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		439A17121358CABF0094D4A7 /* zorglotheque-Info.plist */ = {isa = PBXFileReference; path = "zorglotheque-Info.plist"; sourceTree = "<group>"; };
+		439A17141358CABF0094D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		439A17161358CABF0094D4A7 /* zorglotheque-Prefix.pch */ = {isa = PBXFileReference; path = "zorglotheque-Prefix.pch"; sourceTree = "<group>"; };
+		439A17171358CABF0094D4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		439A171A1358CABF0094D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		439A171C1358CABF0094D4A7 /* ZTDocument.h */ = {isa = PBXFileReference; path = ZTDocument.h; sourceTree = "<group>"; };
+		439A171D1358CABF0094D4A7 /* ZTDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTDocument.m; sourceTree = "<group>"; };
+		439A17201358CABF0094D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZTDocument.xib; sourceTree = "<group>"; };
+		439A17231358CABF0094D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		439A17261358CABF0094D4A7 /* ZTDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZTDocument.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439A17031358CABF0094D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A170B1358CABF0094D4A7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439A16FB1358CABF0094D4A7 = {
+			isa = PBXGroup;
+			children = (
+				439A17101358CABF0094D4A7 /* zorglotheque */,
+				439A17091358CABF0094D4A7 /* Frameworks */,
+				439A17071358CABF0094D4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439A17071358CABF0094D4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439A17061358CABF0094D4A7 /* zorglotheque.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439A17091358CABF0094D4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439A170A1358CABF0094D4A7 /* Cocoa.framework */,
+				439A170C1358CABF0094D4A7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439A170C1358CABF0094D4A7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439A170D1358CABF0094D4A7 /* AppKit.framework */,
+				439A170E1358CABF0094D4A7 /* CoreData.framework */,
+				439A170F1358CABF0094D4A7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		439A17101358CABF0094D4A7 /* zorglotheque */ = {
+			isa = PBXGroup;
+			children = (
+				439A171C1358CABF0094D4A7 /* ZTDocument.h */,
+				439A171D1358CABF0094D4A7 /* ZTDocument.m */,
+				439A171F1358CABF0094D4A7 /* ZTDocument.xib */,
+				439A17221358CABF0094D4A7 /* MainMenu.xib */,
+				439A17251358CABF0094D4A7 /* ZTDocument.xcdatamodeld */,
+				439A17111358CABF0094D4A7 /* Supporting Files */,
+			);
+			path = zorglotheque;
+			sourceTree = "<group>";
+		};
+		439A17111358CABF0094D4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439A17121358CABF0094D4A7 /* zorglotheque-Info.plist */,
+				439A17131358CABF0094D4A7 /* InfoPlist.strings */,
+				439A17161358CABF0094D4A7 /* zorglotheque-Prefix.pch */,
+				439A17171358CABF0094D4A7 /* main.m */,
+				439A17191358CABF0094D4A7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439A17051358CABF0094D4A7 /* zorglotheque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439A172A1358CABF0094D4A7 /* Build configuration list for PBXNativeTarget "zorglotheque" */;
+			buildPhases = (
+				439A17021358CABF0094D4A7 /* Sources */,
+				439A17031358CABF0094D4A7 /* Frameworks */,
+				439A17041358CABF0094D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zorglotheque;
+			productName = zorglotheque;
+			productReference = 439A17061358CABF0094D4A7 /* zorglotheque.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439A16FD1358CABF0094D4A7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 439A17001358CABF0094D4A7 /* Build configuration list for PBXProject "zorglotheque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 439A16FB1358CABF0094D4A7;
+			productRefGroup = 439A17071358CABF0094D4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439A17051358CABF0094D4A7 /* zorglotheque */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439A17041358CABF0094D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A17151358CABF0094D4A7 /* InfoPlist.strings in Resources */,
+				439A171B1358CABF0094D4A7 /* Credits.rtf in Resources */,
+				439A17211358CABF0094D4A7 /* ZTDocument.xib in Resources */,
+				439A17241358CABF0094D4A7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439A17021358CABF0094D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A17181358CABF0094D4A7 /* main.m in Sources */,
+				439A171E1358CABF0094D4A7 /* ZTDocument.m in Sources */,
+				439A17271358CABF0094D4A7 /* ZTDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		439A17131358CABF0094D4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A17141358CABF0094D4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		439A17191358CABF0094D4A7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A171A1358CABF0094D4A7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		439A171F1358CABF0094D4A7 /* ZTDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A17201358CABF0094D4A7 /* en */,
+			);
+			name = ZTDocument.xib;
+			sourceTree = "<group>";
+		};
+		439A17221358CABF0094D4A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A17231358CABF0094D4A7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439A17281358CABF0094D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		439A17291358CABF0094D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		439A172B1358CABF0094D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zorglotheque/zorglotheque-Prefix.pch";
+				INFOPLIST_FILE = "zorglotheque/zorglotheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		439A172C1358CABF0094D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zorglotheque/zorglotheque-Prefix.pch";
+				INFOPLIST_FILE = "zorglotheque/zorglotheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439A17001358CABF0094D4A7 /* Build configuration list for PBXProject "zorglotheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439A17281358CABF0094D4A7 /* Debug */,
+				439A17291358CABF0094D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439A172A1358CABF0094D4A7 /* Build configuration list for PBXNativeTarget "zorglotheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439A172B1358CABF0094D4A7 /* Debug */,
+				439A172C1358CABF0094D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		439A17251358CABF0094D4A7 /* ZTDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				439A17261358CABF0094D4A7 /* ZTDocument.xcdatamodel */,
+			);
+			currentVersion = 439A17261358CABF0094D4A7 /* ZTDocument.xcdatamodel */;
+			path = ZTDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 439A16FD1358CABF0094D4A7 /* Project object */;
+}
